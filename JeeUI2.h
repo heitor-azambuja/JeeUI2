@@ -6,12 +6,11 @@
 
 #ifdef ESP8266
 #include <ESPAsyncTCP.h>
-#include <FS.h>
 #else
 #include <AsyncTCP.h>
-#include "LittleFS.h"
 #endif
 
+#include "LittleFS.h"
 #include <ESPAsyncWebServer.h>
 #include "ArduinoJson.h"
 
